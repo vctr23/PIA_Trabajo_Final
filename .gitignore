@@ -1,0 +1,18 @@
+# Ignorar datasets y archivos grandes
+archive/
+food-101/
+dataset_food101/
+*.zip
+*.tar.gz
+*.csv
+
+# Ignorar archivos del sistema
+__MACOSX/
+.DS_Store
+
+# Ignorar entornos virtuales y cachés de Python
+__pycache__/
+*.pyc
+.env
+venv/
+env/
