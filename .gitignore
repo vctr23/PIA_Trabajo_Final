@@ -4,7 +4,6 @@ food-101/
 dataset_food101/
 *.zip
 *.tar.gz
-*.csv
 
 # Ignorar entornos virtuales y cachés de Python
 __pycache__/
