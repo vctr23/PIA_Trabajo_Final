@@ -6,10 +6,6 @@ dataset_food101/
 *.tar.gz
 *.csv
 
-# Ignorar archivos del sistema
-__MACOSX/
-.DS_Store
-
 # Ignorar entornos virtuales y cachés de Python
 __pycache__/
 *.pyc
