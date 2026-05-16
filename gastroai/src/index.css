@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-brand-cream: #f9f7f2;
+  --color-brand-olive: #5a5a40;
+  --color-brand-terracotta: #c36a4d;
+}
+
+body {
+  @apply bg-brand-cream text-stone-800 font-sans;
+}
+
+h1, h2, h3, h4, .serif {
+  @apply font-serif;
+}
+
